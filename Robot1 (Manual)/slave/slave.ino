@@ -2,9 +2,9 @@
 #define L_PWM 5
 #define enPin 4
 
-#define Slave_Adress 'C'
+#define Slave_Adress 'B'
 
-Global variabel
+//Global variabel
   
 int m = 0;
 
