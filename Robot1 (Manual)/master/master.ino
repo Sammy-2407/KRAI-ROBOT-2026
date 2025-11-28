@@ -3,7 +3,7 @@
 
 #define EN_PIN 4
 
-// Konstanta
+
 #define MAX_SPEED       250
 #define BASE_SPEED      100
 #define SPEED_INCREMENT 7
