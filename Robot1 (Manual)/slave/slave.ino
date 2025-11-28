@@ -2,7 +2,7 @@
 #define L_PWM 5
 #define enPin 4
 
-#define Slave_Adress 'B'
+#define Slave_Adress 'D'
 
 //Global variabel
   
