@@ -67,7 +67,7 @@ inline void readInputs() {
   rY = map(Ps3.data.analog.stick.ry, -128, 127, realSpeed, -realSpeed);
 
   //Update kecepatan
-  if (Ps3.data.button.r1) {
+  if (Ps3.data.buttoyn.r1) {
     realSpeed = min(realSpeed + SPEED_INCREMENT, MAX_SPEED);
   } else if (Ps3.data.button.r2) {
     realSpeed = max(realSpeed - 60, BASE_SPEED);
