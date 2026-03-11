@@ -34,15 +34,15 @@ while True:
     # Hanya jika fitur ditemukan di kedua gambar
     if des_cam is not None and des_ref is not None:
         matches = bf.match(des_ref, des_cam)
-        matches = sorted(matches, key=lambda x: x.distance)
+        matches = sorted(matches, key=lambda x: x.distance) #ngurutkan matches
 
         # Ambil sebagian match terbaik
         good_matches = [m for m in matches if m.distance < 70]
 
         # Tampilkan hasil di layar
-        matched_img = cv2.drawMatches(ref_img, kp_ref, frame, kp_cam, good_matches[:20], None, flags=2)
+        matched_img = cv2.drawMatches(ref_img, kp_ref, frame, kp_cam, good_matches[:20], None, flags=2) #good match yang mau di gambar aja
 
-        match_score = len(good_matches)
+        match_score = len(good_matches) #jumlah pasangan yang cocok
         cv2.putText(matched_img, f"Matches: {match_score}", (10, 30),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0) if match_score > 30 else (0, 0, 255), 2)
 
