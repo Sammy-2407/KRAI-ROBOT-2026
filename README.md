@@ -61,6 +61,7 @@ The robot system consists of two robots with complementary roles.
 ---
 
 # Robot 1 — Manual Robot
+<img width="738" height="1600" alt="WhatsApp Image 2026-11-02 at 6 30 02 PM" src="https://github.com/user-attachments/assets/b489d720-3972-48ab-91ab-8b8cf1c60c1a" />
 
 Robot 1 is the manually controlled robot.
 
@@ -112,6 +113,7 @@ The ESP32 handles high-level control and communication, while the Arduino is res
 ---
 
 # Robot 2 — Autonomous Robot
+<img width="1179" height="690" alt="WhatsApp Image 2026-11-02 at 6 30 25 PM" src="https://github.com/user-attachments/assets/6f2db0db-6e32-4e15-9990-19e2ff8cb499" />
 
 Robot 2 is the autonomous robot responsible for the spearhead assembly task.
 
