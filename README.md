@@ -1,5 +1,7 @@
 # KRAI Robot 2026 — Kung Fu Quest
 
+<img width="960" height="1280" alt="WhatsApp Image 2026-11-02 at 7 51 03 PM" src="https://github.com/user-attachments/assets/e1e987ca-9fae-4ed4-9ab8-0e0d866193af" />
+
 A two-robot robotic system developed for **Kontes Robot ABU Indonesia (KRAI) 2026**, based on the official **ABU Robocon 2026 — Kung Fu Quest** challenge.
 
 The system consists of two coordinated robots with different operational roles:
@@ -240,29 +242,6 @@ Motor & Mechanism Control
 This architecture allows the computationally intensive vision system to remain on the Raspberry Pi while the ESP32 and Arduino handle communication and real-time actuator control.
 
 ---
-
-# Repository Structure
-
-```text
-KRAI-ROBOT-2026/
-│
-├── Robot1 (Manual)/
-│   ├── ESP32/
-│   └── Arduino/
-│
-├── Robot2 (Autonomus)/
-│   ├── RaspberryPi/
-│   ├── ESP32/
-│   └── Arduino/
-│
-├── README.md
-└── .gitattributes
-```
-
-> The directory structure may evolve as the robot software is modularized and additional subsystems are added.
-
----
-
 # Mission Sequence
 
 The overall operation of the robot system can be summarized as:
@@ -354,6 +333,15 @@ This project was developed for **KRAI 2026**, which adopts the ABU Robocon 2026 
 The competition requires teams to develop two robots capable of working together to complete a sequence of challenges. The official rules define Robot 1 as a manual or autonomous robot, while Robot 2 is required to operate autonomously during the game.
 
 ---
+
+# Documentation
+
+
+
+https://github.com/user-attachments/assets/cf587fc4-43f4-4ada-8523-ebcf1fed7ce4
+
+
+
 
 # Team
 
